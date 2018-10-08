@@ -16,9 +16,10 @@
 3.如果数据包包含错误,则丢弃此数据包,请求重新发送数据包
 4.如果数据包的错误数量过多,可能会被当成正确的数据包从而接收此数据包
 
+```
 Ppe = probabilita di pacchetto errato
 Ppg = probabilita di pacchetto giusto = (1-Ppe)^n
-
+```
 
 0110101000011001	
 两个1则为0，一个1则为1
